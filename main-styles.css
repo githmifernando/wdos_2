@@ -471,7 +471,7 @@ body {
   justify-content: center;
   border-radius: 10px ;
   font-size: 20px;
-  font-weight: 5px;
+  font-weight: 500;
   padding: 10px;
 } 
 
@@ -950,7 +950,7 @@ body.pro-p {
 
 .box #topic{
   font-size:60px;
-  font-weight: 20px;
+  font-weight: 200;
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
   justify-content: center;
@@ -958,7 +958,7 @@ body.pro-p {
 }
 
 .box #sentence{
-  font-size:20px;
+  font-size:200;
   font-family:'Times New Roman', Times, serif;
   font-style: normal;
   padding-bottom: 10px;
@@ -1047,10 +1047,8 @@ body.pro-p {
 
 
 @media (max-width: 600px) {
-  .products-container {
-    .product-box{
-      flex: 1 1 calc(50%-20px);
-    } 
+  .products-container .product-box {
+  flex: 1 1 calc(50% - 20px);
   }
   .pro-image .Dairy{
     width: 100vw;
@@ -2037,7 +2035,7 @@ legend{
   .additional-notes{
     width: 320px;
     font-size: 10px;
-    height: 95;
+    height: 95px;
   }
 }
 
