@@ -847,7 +847,7 @@ body.pro-p {
 
 .box #topic{
   font-size:60px;
-  font-weight: 200;
+  font-weight: 200px;
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
   justify-content: center;
@@ -860,7 +860,7 @@ body.pro-p {
   font-style: normal;
   padding-bottom: 10px;
   align-items: center;
-  font-weight: 2px;
+  font-weight: 200px;
 }
 
 .pro-image .vegetable{
