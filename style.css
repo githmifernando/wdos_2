@@ -47,7 +47,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color:#cba487;
+  color:black;
   font-size: 20px;
   font-weight: bold;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar .active {
-  color: black;
+  color:#cba487;
 }
 
 .dropdown .dropbtn {
@@ -78,14 +78,14 @@ body {
 }
 
 .dropdown-content a {
-  color:#cba487;
+  color:black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  color: black;
+  color:#cba487;
 }
 
 .dropdown:hover .dropdown-content {
