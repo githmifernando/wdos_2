@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyality</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./main-styles.css">
+</head>
+
+<body class="loyality-b">
+
+  <header class="header">
+    <a href="index.html">
+      <img class="logo" src="Grocies Supermarket (4).png" alt="logo">
+    </a>
+    
+    <div class="navbar">
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="About US.html">About Us</a></li>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <li><a href="Products.html">Products</a></li>
+        </button>
+        <div class="dropdown-content">
+          <li><a href="Vegetables.html">Vegetables</a></li>
+          <li><a href="Dairy Products.html">Dairy Products</a></li>
+          <li><a href="Cosmatics.html">Cosmetic and SkinCare</a></li>
+        </div>
+      </div>
+      <li><a href="Order.html">Buy Now</a></li>
+      <div class="icons-image">
+        <a href="Loyality.html">
+          <img src="imgs/add-user-icon-registration-illustration-sign-avatar-symbol-new-profile-logo-vector-removebg-preview.png" alt="">
+        </a>
+        <a href="./cart.html" class="registration-icon">
+          <img src="imgs/shopping-cart-icon-in-flat-style-symbol-vector-20616055-removebg-preview.png" alt="">
+        </a>
+       </div>
+    </div>
+  </header>
+  
+  <section class="loyality-form-container">
+    <div class="loyality-box">
+      <h1>User Details</h1>
+       <form action="/submit-order" method="post">
+        <div class="loyality-c-info">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="07XXXXXXXX" required>
+        </div>
+        
+        <div class="l-shipping-address">
+          <label for="address"> Address:</label>
+          <textarea id="address" name="address" placeholder="Enter the address" required></textarea>
+        </div>
+        
+        <div class="loyality-selection">
+          <label for="l-category">Select The Loyality Category:</label>
+          <select id="l-category" name="category" required>
+            <option value="">--Please choose  the loyality  option--</option>
+            <option value="vegetables">Gold</option>
+            <option value="dairy">Silver</option>
+            <option value="cosmetics">Bronze</option>
+          </select>
+          <button type="button">Register</button>
+        </form>
+      </div>
+    </section>
+
+<div class="loyalty-schemes">
+  <div class="loyality-form-c">
+  <h2 class="l-topic">Loyalty Schemes and Benefits</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Scheme</th>
+        <th>Benefits</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Gold</td>
+        <td>10% off, Free shipping, Priority customer service</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>5% off, Free shipping, Priority customer service</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>2% off, Free shipping, Priority customer service</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<footer class="custom-footer">
+  <div class="footer-social">
+    <a href="#"><img src="fb.webp"></a> 
+    <a href=""><img src="instagram-circular-black-icon-vector-29783030-removebg-preview.png"></a>
+  </div>
+  
+  <div class="footer-contact">
+    <p>Phone: +1234567890</p>
+    <p>Email: info@grociessupermarket.com</p>
+  </div>
+  <div class="footer-copyright">
+    <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+  </div>
+  <div>
+     <!---https://www.freepik.com/---->
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+  
+    
+</body>
+</html>
