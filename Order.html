@@ -6,49 +6,55 @@
     <title>Order Page</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./main-styles.css">
+    
+    
 </head>
 <body class="order-p">
   <header class="header">
-    <a href="index.html" aria-label="Homepage">
-      <img class="logo" src="Grocies_Supermarket_4.png" alt="Grocies Supermarket Logo">
+    <a href="index.html">
+      <img class="logo" src="Grocies Supermarket (4).png" alt="logo">
     </a>
     
-    <nav class="navbar">
+    <div class="navbar">
       <ol>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="About US.html">About Us</a></li>
-        <li class="dropdown">
-          <button class="dropbtn">Products</button>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <li><a href="Products.html">Products</a></li>
+          </button>
           <div class="dropdown-content">
-            <a href="Vegetables.html">Vegetables</a>
-            <a href="Dairy Products.html">Dairy Products</a>
-            <a href="Cosmatics.html">Cosmetic and SkinCare</a>
+            <li><a href="Vegetables.html">Vegetables</a></li>
+            <li><a href="Dairy Products.html">Dairy Products</a></li>
+            <li><a href="Cosmatics.html">Cosmetic and SkinCare</a></li>
           </div>
-        </li>
+        </div>
         <li><a href="Order.html">Buy Now</a></li>
-        <li class="icons-image">
-          <a href="Loyality.html" aria-label="User Profile">
-            <img src="imgs/add-user-icon-registration-illustration-sign-avatar-symbol-new-profile-logo-vector-removebg-preview.png" alt="User Profile Icon">
+        <div class="icons-image">
+          <a href="Loyality.html">
+            <img src="imgs/add-user-icon-registration-illustration-sign-avatar-symbol-new-profile-logo-vector-removebg-preview.png" alt="">
           </a>
-          <a href="./cart.html" class="registration-icon" aria-label="Shopping Cart">
-            <img src="imgs/shopping-cart-icon-in-flat-style-symbol-vector-20616055-removebg-preview.png" alt="Shopping Cart Icon">
+          <a href="./cart.html" class="registration-icon">
+            <img src="imgs/shopping-cart-icon-in-flat-style-symbol-vector-20616055-removebg-preview.png" alt="">
           </a>
-        </li>
+        </div>
       </ol>
-    </nav>
+    </div>
   </header>
 
   <div class="order-main">
-    <img src="imgs/Untitled design (10).png" alt="Order Now Banner" class="order-b">
+    <img src="imgs/Untitled design (10).png" alt="" class="order-b">
     <div class="order-main-t">
-      <h1>Order Now</h1>
+      <h1>Order Now </h1>
     </div>
   </div>
 
   <section class="order-form-container">
     <div class="order-box">
       <h1>Order Details</h1>
-      <h2>Order Summary</h2>
+      <h2>Order Summary:                              
+        
+      </h2>
       <table id="cart">
         <thead>
           <tr>
@@ -58,7 +64,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- Items will be dynamically added here -->
+        <!-- Items will be dynamically added here -->
         </tbody>
         <tfoot>
           <tr>
@@ -69,55 +75,58 @@
       </table>
 
       <form id="orderForm">
+
         <fieldset>
-          <legend>Personal Details</legend>
+          <Legend>Personal Details</Legend>
           <div class="customer-info">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" class="input" name="name" placeholder="Enter your First Name" required>
+            <label id=" FirstName">
+              First Name:
+            </label>
+            <input type="text" class=" input" name="name" placeholder="Enter your  First Name" required>
           
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" class="input" name="lastName" placeholder="Enter your Last Name" required>
+            <label id="Last Name">Last Name:</label>
+            <input type="text" class=" input" name="email" placeholder="Enter your Last Name" required>
           
-            <label for="email">Email:</label>
-            <input type="email" id="email" class="input" name="email" placeholder="Email Address" required>
+            <label id="Email">Email:</label>
+            <input type="email" class=" input"name="phone" placeholder="Email Address" required>
           </div>
         </fieldset>
         <br>
       
         <fieldset>
-          <legend>Delivery Details</legend>
+          <legend>Delivery Details!</legend>
           <div class="shipping-address">
-            <label for="address">Address:</label>
-            <input type="text" id="address" class="input" name="address" placeholder="Enter the address" required>
+            <label id="address">Address:</label>
+            <input type="text" class="input" name="address" placeholder="Enter the  address" required>
           
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" class="input" name="phone" placeholder="07XXXXXXXX" required>
+            <label id="phone">Phone:</label>
+            <input type="tel" class=" input" name="phone" placeholder="07XXXXXXXX" required>
 
-            <label for="city">City:</label>
-            <input type="text" id="city" class="input" name="city" placeholder="Enter your city" required>
+            <label for="City">City:</label>
+            <input type="text" class=" input" name="phone" placeholder="Enter your city" required>
 
-            <label for="province">Province:</label>
-            <input type="text" id="province" class="input" name="province" placeholder="Enter your Province" required>
+            <label for="Province">Province:</label>
+            <input type="text"class=" input" name="Province" placeholder="Enter your Province" required>
 
-            <label for="zipCode">Zip Code:</label>
-            <input type="number" id="zipCode" class="input" name="zipCode" placeholder="Enter the Zip Code" required>
+            <label for="Zip Code">Code:</label>
+            <input type="number" class=" input" name="Code" placeholder="Enter the Zip Code" required>
           </div>
         </fieldset>
         <br>
 
         <fieldset>
-          <legend>Payment Information</legend>
-          <label for="cardName">Name on the Card:</label>
-          <input type="text" id="cardName" class="input" name="cardName" placeholder="Name on card" required>
+          <legend>Payment Information!</legend>
+          <label for="Name on the card">Name on  the card:</label>
+          <input type="text" class=" input" name="phone" placeholder="Name on card" required>
 
-          <label for="cardNumber">Credit Card Number:</label>
-          <input type="text" id="cardNumber" class="input" name="cardNumber" placeholder="Credit Card Number" required>
+          <label for="Credit card number">Credit Card Number:</label>
+          <input type="number" class=" input" name="phone" placeholder="Creadit Card Number" required>
 
-          <label for="expiryDate">Expiry Date (MM/YY):</label>
-          <input type="text" id="expiryDate" class="input" name="expiryDate" placeholder="Expiry Date (MM/YY)" required>
+          <label for="Exp Date">Expiry Date (MM/YY):</label>
+          <input type="text" class=" input" name="Province" placeholder="Expiry Date (MM/YY)" required>
 
-          <label for="cvv">CVV:</label>
-          <input type="number" id="cvv" class="input" name="cvv" placeholder="Enter the CVV" required>
+          <label for="CVV">CVV:</label>
+          <input type="number" class=" input" name="Code" placeholder="Enter the CVV" required>
         </fieldset>
         <br>
         
@@ -133,12 +142,8 @@
   
   <footer class="custom-footer">
     <div class="footer-social">
-      <a href="#" aria-label="Facebook">
-        <img src="fb.webp" alt="Facebook Logo">
-      </a> 
-      <a href="#" aria-label="Instagram">
-        <img src="instagram-circular-black-icon-vector-29783030-removebg-preview.png" alt="Instagram Logo">
-      </a>
+      <a href="#"><img src="fb.webp" alt></a> 
+      <a href=""><img src="instagram-circular-black-icon-vector-29783030-removebg-preview.png"></a>
     </div>
     <div class="footer-contact">
       <p>Phone: +1234567890</p>
