@@ -299,7 +299,7 @@ body {
 }
 
 .h-i-1:hover .overlay-h {
-  opacity: 4;
+  opacity: 1;
 }
 
 .text-h {
@@ -309,7 +309,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  
 }
 
 
@@ -490,13 +490,11 @@ body {
     margin-left: 0;
   }
 
- .h-i-1:hover.overlay-h {
-    opacity: 2; 
-  }
+
 
  .text-h {
     font-size: 30px; 
-  }
+ }
 }
 
 /*About Us*/
@@ -848,7 +846,6 @@ body.pro-p {
 
 .box #topic{
   font-size:60px;
-  font-weight: 200px;
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
   justify-content: center;
@@ -861,7 +858,7 @@ body.pro-p {
   font-style: normal;
   padding-bottom: 10px;
   align-items: center;
-  font-weight: 200px;
+  
 }
 
 .pro-image .vegetable{
@@ -1040,16 +1037,14 @@ body.dairy-p {
   flex-wrap: wrap;
   padding: 20px;
 }
-
 .d-box {
-  flex: 1 1 calc(25%-20px); 
-  margin-top: 50px;
-  text-align: center;
-  border: 1px solid black;
-  padding: 20px;
-  background-color:#e5bcb4;
-  height: 400px;
-  width: 300px;
+  margin-top : 50px;
+  text-align : center;
+  border : black solid 1px;
+  padding : 40px;
+  background-color : #e5bcb4;
+  height : 300px;
+  width : 250px;
 }
 
 .d-box img {
@@ -1129,15 +1124,14 @@ body.dairy-p {
     padding: 0px;
   }
   
-  .d-box {
-    flex: 1 1 calc(25%-20px); 
-    margin-top: 50px;
-    text-align: center;
-    border: 1px solid black;
-    padding: 20px;
-    background-color:#e5bcb4;
-    height: 300px;
-    width: 250px;
+.d-box {
+  margin-top : 50px;
+  text-align : center;
+  border : black solid 1px;
+  padding : 20px;
+  background-color : #e5bcb4;
+  height : 300px;
+  width : 250px;
   }
   
   .d-box img {
