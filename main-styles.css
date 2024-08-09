@@ -1813,9 +1813,15 @@ body.order-p {
   border-radius: 8px;
 }
 
-.order-form-container h1 {
+.order-form-container h2 {
   text-align: center;
   font-size: 45px;
+  text-decoration: underline;
+}
+
+.order-form-container h3 {
+  text-decoration: underline;
+
 }
 
 .order-form-container form {
